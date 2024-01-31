@@ -657,7 +657,7 @@ body {
     margin: 10px;
     max-width: 340px;
     min-height: 380px;
-    border: 1px solid var(--brown);
+    border: 5px solid var(--brown);
 }
 
 .news__card--content {
