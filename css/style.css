@@ -1835,3 +1835,37 @@ a {
       }
 
 }
+
+@media screen and (orientation: landscape) {
+    .head {
+        margin-bottom: 0;
+    }
+
+    .nav .ul .a {
+        font-size: 24px;
+    }
+
+    .nav .ul .li {
+        margin-bottom: 0;
+    }
+
+    .ul .li {
+        display: flex;
+        margin: 20px 20px;
+        flex-wrap: wrap;
+    }
+
+    .wrapper {
+        max-width: 1440px;
+        padding: 0 20px 40px 40px;
+        margin: 0 auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background: var(--light);
+      }
+
+      .swiper {
+        margin-top: 5px;
+      }
+}
