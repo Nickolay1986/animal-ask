@@ -772,6 +772,11 @@ a {
   flex-wrap: wrap;
   line-height: 0.2;
 }
+
+.entry .ul .p {
+    margin-left: 5%;
+}
+
 /* entry end */
 /* Contact start */
 .contacts .h2 {
