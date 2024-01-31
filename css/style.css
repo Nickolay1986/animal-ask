@@ -1836,7 +1836,7 @@ a {
 
 }
 
-@media screen and (orientation: landscape) {
+/* @media screen and (orientation: landscape) {
     .head {
         margin-bottom: 0;
     }
@@ -1884,4 +1884,4 @@ a {
         z-index: 2;
         transition: transform .5s;
     }
-}
+} */
