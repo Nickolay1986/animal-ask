@@ -1610,8 +1610,9 @@ a {
 
     .header .h3 {
         margin: auto;
-        margin-left: 20%;
-        font-size: 20px;
+        margin-left: 22%;
+        margin-right: 15%;
+        font-size: 18px;
     }
 
     .sectiondrinks {
