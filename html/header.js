@@ -11,16 +11,20 @@ document.addEventListener('DOMContentLoaded', function () {
     const divLogoMobile = document.createElement('div');
     divLogoMobile.classList.add('divLogoMobile');
 
+    const aIndexM = document.createElement('a');
+    aIndexM.href = '../index.html'
+
     const logo = document.createElement('div');
     logo.classList.add('logo');
     const logoImg = document.createElement('img');
     logoImg.src = '../img/logo.png';
-    logoImg.alt = 'logo w100 h60';
+    logoImg.alt = 'logo w60 h60';
     logoImg.width = '60';
     logoImg.height = '60';
     logo.appendChild(logoImg);
 
-    divLogoMobile.appendChild(logo);
+    divLogoMobile.appendChild(aIndexM);
+    aIndexM.appendChild(logo);
     headDiv.appendChild(divLogoMobile);
 
     const header = document.createElement('header');
@@ -35,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
     logo2.classList.add('logo');
     const logoImg2 = document.createElement('img');
     logoImg2.src = '../img/logo.png';
-    logoImg2.alt = 'logo w100 h60';
+    logoImg2.alt = 'logo w60 h60';
     logoImg2.width = '60';
     logoImg2.height = '60';
     logo2.appendChild(logoImg2);
@@ -43,6 +47,11 @@ document.addEventListener('DOMContentLoaded', function () {
     divLogo.appendChild(aIndex);
     aIndex.appendChild(logo2);
     header.appendChild(divLogo);
+    // <p class="h3">Ассоциация скотоводов Казахстана</p>
+    const siteName = document.createElement('p');
+    siteName.classList.add('h3');
+    siteName.textContent = 'Ассоциация скотоводов Казахстана';
+    header.appendChild(siteName);
 
     const nav = document.createElement('nav');
     nav.classList.add('nav');
