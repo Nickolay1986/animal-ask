@@ -645,7 +645,12 @@ body {
 .news__card {
     margin: 10px;
     max-width: 340px;
+    min-height: 350px;
     border: 1px solid var(--dark);
+}
+
+.news__card--content {
+    margin: 15px;
 }
 
 a {
